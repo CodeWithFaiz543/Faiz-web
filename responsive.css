@@ -1,0 +1,280 @@
+@media only screen and (max-width: 900px) {
+    header nav .fa-bars {
+        display: block;
+    }
+    header nav {
+        padding: 0 3rem;
+    }
+    header nav ul {
+        display: block;
+        /* position: relative; */
+    }
+    header nav #toggleul {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        background: black;
+        top: -260px;
+        left: -10%;
+        transition: all .4s ease-in;
+    }
+    header nav #toggleul.active {
+        top: 240px;
+    }
+    header nav ul li {
+        margin: 2rem 0;
+    }
+    .left_side_skill_image img {
+        width: 300px;
+        margin-bottom: 5rem;
+    }
+    .right_side_skill_image img {
+        width: 300px;
+        margin-top: 5rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content {
+        width: 40%;
+        margin: 0 5rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content p {
+        color: #d3d3d3;
+        letter-spacing: 1.2px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 1.1rem;
+    }
+    header nav .logo {
+        font-size: 1.1rem;
+    }
+    main .first_content .left_side h1 {
+        font-size: 2rem;
+    }
+    main .first_content .left_side h2 {
+        font-size: 1.5rem;
+    }
+    #element {
+        margin-bottom: 2rem;
+    }
+    main .first_content .left_side button {
+        padding: .8rem 1.5rem;
+        border-radius: 7rem;
+        font-size: .8rem;
+        margin: 2rem .2rem;
+    }
+    main .first_content .right_side img {
+        height: 250px;
+    }
+    .my_design .left_side_design_image img {
+        width: 400px;
+        margin-top: 3rem;
+    }
+    .left_side_skill_image img {
+        width: 200px;
+        margin-bottom: 5rem;
+    }
+    .right_side_skill_image img {
+        width: 200px;
+        margin-top: 5rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content {
+        width: 100%;
+        margin: 0 2rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content p {
+        color: #d3d3d3;
+        letter-spacing: 1.2px;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 60%;
+    }
+    header nav .logo {
+        font-size: 1rem;
+    }
+    main .first_content .left_side h1 {
+        font-size: 1.4rem;
+    }
+    main .first_content .left_side h2 {
+        font-size: 1.1rem;
+    }
+    #element {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    main .first_content .left_side button {
+        padding: .6rem 1.3rem;
+        border-radius: 7rem;
+        font-size: .7rem;
+        margin: 2rem .2rem;
+    }
+    main .first_content .right_side img {
+        height: 200px;
+    }
+    .my_design .left_side_design_image img {
+        width: 250px;
+        margin-top: 3rem;
+    }
+    .secend_section .design_head {
+        margin-bottom: 2rem;
+    }
+    .secend_section .design_head h1 {
+        color: #ff49ad;
+        font-size: 1.4rem;
+    }
+    .secend_section .design_head p {
+        font-size: .8rem;
+        margin-top: .6rem;
+        color: #d3d3d3;
+    }
+    .my_design .left_side_design h3 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .my_design .left_side_design p {
+        margin: 1rem 0;
+        font-size: .6rem;
+        color: #d3d3d3;
+    }
+    .last_design {
+        margin-top: 3rem;
+    }
+    .last_design div {
+        font-size: 1rem;
+    }
+    .last_design button {
+        margin-top: 1rem;
+        padding: .6rem 1.3rem;
+        font-size: .6rem;
+    }
+    .left_side_skill_image img {
+        width: 100px;
+        margin-bottom: 5rem;
+    }
+    .right_side_skill_image img {
+        width: 100px;
+        margin-top: 5rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content {
+        width: 100%;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content p {
+        color: #d3d3d3;
+        letter-spacing: 1.2px;
+        font-size: .8rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    main .first_content .left_side h1 {
+        font-size: 1rem;
+    }
+    main .first_content .left_side h2 {
+        font-size: .8rem;
+    }
+    #element {
+        font-size: .8rem;
+        margin-bottom: 2rem;
+    }
+    main .first_content .left_side button {
+        padding: .4rem 1rem;
+        border-radius: 7rem;
+        font-size: .5rem;
+        margin: 0 .2rem;
+        margin-top: 1rem;
+    }
+    main .first_content .right_side img {
+        height: 150px;
+    }
+    .my_design .left_side_design_image img {
+        width: 200px;
+        margin-top: 2rem;
+    }
+    .my_design .left_side_design h3 {
+        margin: 1rem 0;
+        font-size: .8rem;
+        color: white;
+    }
+    .my_design .left_side_design p {
+        margin: 1rem 0;
+        font-size: .5rem;
+        color: #d3d3d3;
+    }
+    .last_design {
+        margin-top: 1rem;
+    }
+    .last_design div {
+        font-size: .8rem;
+    }
+    .last_design button {
+        margin-top: .8rem;
+        padding: .4rem 1rem;
+        font-size: .6rem;
+    }
+    .left_side_skill_image img {
+        width: 80px;
+        margin-bottom: 2rem;
+    }
+    .right_side_skill_image img {
+        width: 80px;
+        margin-top: 2rem;
+    }
+    .thard_section .skill_design .skill_flex .right_side_skill_content,
+    .left_side_skill_content p {
+        color: #d3d3d3;
+        letter-spacing: 1.2px;
+        font-size: .5rem;
+    }
+}
+
+@media only screen and (max-width: 188px) {
+    body {
+        font-size: 40%;
+    }
+    header nav .logo {
+        font-size: .5rem;
+    }
+    main .first_content .left_side h1 {
+        font-size: .8rem;
+    }
+    main .first_content .left_side h2 {
+        font-size: .6rem;
+    }
+    #element {
+        font-size: .6rem;
+        margin-bottom: 2rem;
+    }
+    main .first_content .left_side button {
+        padding: .2rem .8rem;
+        border-radius: 7rem;
+        font-size: .4rem;
+        margin: 0 .2rem;
+        margin-top: 1rem;
+    }
+    main .first_content .right_side img {
+        height: 100px;
+    }
+    .left_side_skill_image img {
+        width: 60px;
+        margin-bottom: 1rem;
+    }
+    .right_side_skill_image img {
+        width: 60px;
+        margin-top: 1rem;
+    }
+}
